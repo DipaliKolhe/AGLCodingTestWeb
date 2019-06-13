@@ -1,0 +1,17 @@
+<div class="jumbtron">
+  <h1 class="display-4 text-center">
+    AGL Coding Test
+  </h1>
+  <h2>{{errorMsg}}</h2>
+  <table class="table table-hover">
+    <th>Cats by Owner Gender</th>
+    <tr *ngFor = "let obj of this.list">
+      <td>
+        {{obj.gender}}
+        <div *ngFor = "let p of obj.petNames">
+          {{ p }}
+        </div>
+      </td>
+    </tr>
+  </table>
+  
