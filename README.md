@@ -1,5 +1,7 @@
 # AGLCodingTestWeb
 
+This is the UI Client for AGL coding test. For Web API, Please refer to repository https://github.com/DipaliKolhe/AGL.Coding.Test.WebAPI
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
 
 ## Development server
